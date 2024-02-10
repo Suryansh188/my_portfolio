@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about me!</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background-color: rgb(2, 2, 77);
+      color: white;
+      font-family: "poppins", sans-serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .left:hover {
+      font-size: 1.52rem;
+      color: lavender;
+    }
+
+    a {
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px;
+      background-color: rgb(6, 1, 50);
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0px 20px;
+    }
+
+    a:hover {
+      color: lavender;
+      font-size: 1.02rem;
+    }
+
+    .about_photo {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      width: 50%;
+    }
+
+    img {
+      width: 300px;
+      margin-top: 50px;
+      margin-right: 100px;
+    }
+
+    .right_about {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-size: 1.8rem;
+      margin-top: 100px;
+      margin-left: 50px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Suryansh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact-me.html">Contact Me!</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="right_about">
+        MCA Student at Kristu Jayanti College,Bangalore, Passionate about<br />
+        Coding and Web-Development.
+        <div class="about_photo">
+          <img src="working.png" alt="about photo" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
